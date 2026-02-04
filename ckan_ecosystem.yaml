@@ -1,0 +1,79 @@
+# ckan_ecosystem.yaml — Extension
+# ---------------------------------------------------------------------------
+# Place this file at the root of your extension repository.
+# The CKAN Ecosystem Catalog harvester will read it automatically to
+# populate your extension's listing on ecosystem.ckan.org.
+#
+# Fields omitted or left empty here will either be left blank on the
+# catalog or filled in by the harvester from the GitHub API where possible
+# (e.g. stars, forks, contributors, language stats, release info).
+# ---------------------------------------------------------------------------
+
+# --- Basic Info -------------------------------------------------------------
+
+# Human-readable title shown on the catalog card.
+title: "ckanext-datatablesview_plus"
+
+# Short description rendered as the main body of the listing (Markdown).
+notes: |
+  An enhanced version of the CKAN DataTables View extension that provides
+  additional features and customization options for displaying tabular data
+  within CKAN datasets.
+
+
+# Extended description with full feature details, use cases, and technical
+# notes. Supports Markdown.
+detailed_info: |
+  The ckanext-datatablesview_plus extension builds upon the capabilities of
+  the original DataTables View extension by introducing a range of new features
+  designed to improve data visualization and user interaction. Key enhancements
+  include advanced filtering options, customizable column visibility, and
+  improved performance for large datasets. This extension is ideal for CKAN
+  instances that require more robust data presentation tools to facilitate
+  better data exploration and analysis.
+
+
+# Name or organisation that publishes this extension.
+publisher: "dathere"
+
+# ----------------------------------------------------------------------------
+# Classification
+# Valid values: theme | dataset_type | harvester | visualization |
+#               data_utility | api | workflow | validation |
+#               authentication | storage | federation | general | metadata
+# ----------------------------------------------------------------------------
+extension_type: "visualization"
+
+# Comma-separated list of tags for discoverability.
+# e.g. "harvester, government, open-data"
+tags:
+  - "data visualization"
+  - "tables"
+  - "filtering"
+  - "customization"
+  - "ckan extension"
+# ----------------------------------------------------------------------------
+# CKAN compatibility
+# List every major CKAN version this extension supports.
+# e.g. ["2.9", "2.10", "3.0"]
+# ----------------------------------------------------------------------------
+ckan_version:
+  - "2.10" 
+
+# SPDX license identifier or short name.
+# e.g. "MIT", "Apache-2.0", "GPL-3.0"
+license: "MIT"
+
+# --- Contact & Links --------------------------------------------------------
+
+# Name of the primary point of contact / maintainer.
+contact_name: "Minhaj"
+
+# Email of the primary point of contact / maintainer.
+contact_email: "minhaj@dathere.com"
+
+# Canonical URL of the GitHub (or other) repository.
+url: "https://github.com/dathere/ckanext-datatablesview_plus"
+
+# URL of the organisation or team that maintains this extension.
+organization_url: "https://dathere.com/"
